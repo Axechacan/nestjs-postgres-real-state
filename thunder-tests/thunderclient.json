@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "51b2303e-d68d-45bc-b53d-ed7895bbce26",
+    "colId": "f6d4cb33-d278-4c80-8d82-7d1c1b740a7f",
+    "containerId": "53e21230-2155-4f97-8768-b8ddb61229c1",
+    "name": "createHouse",
+    "url": "http://localhost:3000/houses",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-11-19T22:56:54.576Z",
+    "modified": "2022-11-19T23:04:46.602Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\":\"Big House\",\n  \"price\":1000000000\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "f6d4cb33-d278-4c80-8d82-7d1c1b740a7f",
+    "colName": "realEstate",
+    "created": "2022-11-19T22:55:53.232Z",
+    "sortNum": 20000,
+    "folders": [
+      {
+        "_id": "53e21230-2155-4f97-8768-b8ddb61229c1",
+        "name": "houses",
+        "containerId": "",
+        "created": "2022-11-19T22:56:04.567Z",
+        "sortNum": 10000
+      }
+    ]
+  }
+]

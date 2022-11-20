@@ -4,8 +4,9 @@ import { AppService } from './app.service';
 import { HouseModule } from './house/house.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { dataSourceOptions } from 'db/data-source';
+import { UserModule } from './user/user.module';
 @Module({
-  imports: [TypeOrmModule.forRoot(dataSourceOptions), HouseModule],
+  imports: [TypeOrmModule.forRoot(dataSourceOptions), HouseModule, UserModule],
   controllers: [AppController],
   providers: [AppService],
 })

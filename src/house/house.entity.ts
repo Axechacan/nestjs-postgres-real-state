@@ -1,4 +1,11 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  OneToMany,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
+import { Photo } from './photo/photo.entity';
 
 @Entity()
 export class House {
@@ -10,4 +17,8 @@ export class House {
 
   @Column()
   price: number;
+
+  @OneToMany(() => Photo, (photo) => photo.house, { cascade: ['insert'] })
+  @JoinColumn({ name: 'house_id' })
+  photos: Photo[];
 }

@@ -8,14 +8,28 @@
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-11-19T22:56:54.576Z",
-    "modified": "2022-11-19T23:04:46.602Z",
+    "modified": "2022-11-20T00:03:16.238Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"title\":\"Big House\",\n  \"price\":1000000000\n}",
+      "raw": "{\n  \"title\": \"Big HouKEWOse\",\n  \"price\": 1000000000,\n  \"photos\": [\n    {\n      \"url\": \"holASCDSa.png\"\n    },\n    {\n      \"url\": \"holASCDSa.png\"\n    }\n  ]\n}",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "52cb508b-5d2b-4ddc-80e9-9d52fb5ab750",
+    "colId": "f6d4cb33-d278-4c80-8d82-7d1c1b740a7f",
+    "containerId": "53e21230-2155-4f97-8768-b8ddb61229c1",
+    "name": "getHouse",
+    "url": "http://localhost:3000/houses/17",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-11-19T23:53:34.043Z",
+    "modified": "2022-11-20T00:03:24.873Z",
+    "headers": [],
+    "params": [],
     "tests": []
   }
 ]
